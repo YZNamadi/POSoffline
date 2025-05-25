@@ -24,6 +24,7 @@ const syncTransactionToDB = async (tx) => {
       },
     });
 
+    
     if (exists) {
       return { success: true, message: 'Transaction already synced' };
     }
