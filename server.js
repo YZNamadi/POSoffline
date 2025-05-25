@@ -11,6 +11,7 @@ const transactionRoutes = require('./routes/transactionRoutes');
 // Middleware
 app.use(express.json());
 
+
 // Routes
 app.use('/api', transactionRoutes);
 
