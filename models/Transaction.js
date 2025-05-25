@@ -7,6 +7,7 @@ const Transaction = sequelize.define('Transaction', {
     primaryKey: true,
     allowNull: false,
   },
+  
   amount: {
     type: DataTypes.FLOAT,
     allowNull: false,
